@@ -130,27 +130,24 @@ class AccountSettingsFragment : PreferenceFragmentCompat(), ConfirmationDialogFr
 
     private fun initializeColorPicker(){
         findPreference(PREFERENCE_COLOR_PICKER)?.onClick {
-            if (manager?.getInstalledModules()?.contains(MODULE2_NAME)!!) {
-                    Toast.makeText(context, "colorpicker module installed", Toast.LENGTH_LONG).show()
-            } else {
-//                    Toast.makeText(context, "module not installed", Toast.LENGTH_LONG).show()
-                val request = SplitInstallRequest.newBuilder()
-                        .addModule(MODULE2_NAME)
-                        .build()
-                manager!!.startInstall(request)
-                        .addOnCompleteListener { aVoid -> run{
-                            Toast.makeText(context, "colorpicker module successfully installed", Toast.LENGTH_LONG).show()
-//                            val cp= this.findPreference(PREFERENCE_COLOR_PICKER)
-//                            Toast.makeText(context, "switch state "+cp.isEnabled, Toast.LENGTH_LONG).show()
-//                            cp.setEnabled(true)
-                        } }
-                        .addOnFailureListener { aVoid -> run{
-                            Toast.makeText(context, "colorpicker module not installed", Toast.LENGTH_LONG).show()
-//                            val cp= this.findPreference(PREFERENCE_COLOR_PICKER)
-//                            Toast.makeText(context, "switch state "+cp.isEnabled, Toast.LENGTH_LONG).show()
-//                            cp.setEnabled(false)
-                        } }
-            }
+//            if (manager?.getInstalledModules()?.contains(MODULE2_NAME)!!) {
+//                    Toast.makeText(context, "colorpicker module installed", Toast.LENGTH_LONG).show()
+//            } else {
+////                    Toast.makeText(context, "module not installed", Toast.LENGTH_LONG).show()
+//                val request = SplitInstallRequest.newBuilder()
+//                        .addModule(MODULE2_NAME)
+//                        .build()
+//                manager!!.startInstall(request)
+//                        .addOnSuccessListener { aVoid -> run{
+//                            Toast.makeText(context, "encryption module successfully installed", Toast.LENGTH_LONG).show()
+//                        } }
+////                        .addOnCompleteListener { aVoid -> run{
+////                            Toast.makeText(context, "colorpicker module successfully installed", Toast.LENGTH_LONG).show()
+////                        } }
+//                        .addOnFailureListener { aVoid -> run{
+//                            Toast.makeText(context, "colorpicker module not installed", Toast.LENGTH_LONG).show()
+//                        } }
+//            }
         }
     }
     private fun initializeIncomingServer() {
@@ -257,9 +254,12 @@ class AccountSettingsFragment : PreferenceFragmentCompat(), ConfirmationDialogFr
                             .addModule(MODULE1_NAME)
                             .build()
                     manager!!.startInstall(request)
-                            .addOnCompleteListener { aVoid -> run{
+                            .addOnSuccessListener { aVoid -> run{
                                 Toast.makeText(context, "encryption module successfully installed", Toast.LENGTH_LONG).show()
                             } }
+//                            .addOnCompleteListener { aVoid -> run{
+//                                Toast.makeText(context, "encryption module successfully installed", Toast.LENGTH_LONG).show()
+//                            } }
                             .addOnFailureListener { aVoid -> run{
                                 Toast.makeText(context, "encryption module installation fails", Toast.LENGTH_LONG).show()
                             } }
