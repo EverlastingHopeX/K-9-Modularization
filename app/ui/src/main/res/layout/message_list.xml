@@ -7,7 +7,7 @@
 
     <include layout="@layout/toolbar" />
 
-    <com.fsck.k9m.view.ViewSwitcher
+    <com.fsck.k9m_m.view.ViewSwitcher
             android:id="@+id/container"
             android:layout_width="match_parent"
             android:layout_height="0dip"
@@ -23,6 +23,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"/>
 
-    </com.fsck.k9m.view.ViewSwitcher>
+    </com.fsck.k9m_m.view.ViewSwitcher>
 
 </LinearLayout>

@@ -7,7 +7,7 @@
               android:layout_gravity="center_vertical"
         >
 
-    <com.fsck.k9m.ui.ContactBadge
+    <com.fsck.k9m_m.ui.ContactBadge
             android:id="@+id/contact_badge"
             android:layout_marginRight="10dp"
             android:layout_marginTop="4dip"

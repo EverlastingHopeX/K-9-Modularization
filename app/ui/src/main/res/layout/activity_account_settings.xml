@@ -11,7 +11,7 @@
         android:background="?attr/colorPrimary"
         android:elevation="4dp">
 
-        <com.fsck.k9m.ui.settings.account.AccountSelectionSpinner
+        <com.fsck.k9m_m.ui.settings.account.AccountSelectionSpinner
             android:id="@+id/accountSpinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

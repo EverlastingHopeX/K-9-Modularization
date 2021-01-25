@@ -68,7 +68,7 @@
             android:orientation="horizontal"
             android:padding="8dp">
 
-            <com.fsck.k9m.view.StatusIndicator
+            <com.fsck.k9m_m.view.StatusIndicator
                 android:id="@+id/transferProgressGenerating"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -93,7 +93,7 @@
             android:orientation="horizontal"
             android:padding="8dp">
 
-            <com.fsck.k9m.view.StatusIndicator
+            <com.fsck.k9m_m.view.StatusIndicator
                 android:id="@+id/transferProgressSending"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -134,7 +134,7 @@
             android:orientation="horizontal"
             android:padding="8dp">
 
-            <com.fsck.k9m.view.StatusIndicator
+            <com.fsck.k9m_m.view.StatusIndicator
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_gravity="center_vertical"

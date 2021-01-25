@@ -45,7 +45,7 @@
             style="@style/ComposeEditText"
             />
 
-        <com.fsck.k9m.view.ToolableViewAnimator
+        <com.fsck.k9m_m.view.ToolableViewAnimator
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -100,7 +100,7 @@
                     />
             </FrameLayout>
 
-        </com.fsck.k9m.view.ToolableViewAnimator>
+        </com.fsck.k9m_m.view.ToolableViewAnimator>
 
         <FrameLayout
             android:layout_width="wrap_content"
@@ -112,7 +112,7 @@
             android:id="@+id/crypto_status_anchor"
             >
 
-            <com.fsck.k9m.view.ToolableViewAnimator
+            <com.fsck.k9m_m.view.ToolableViewAnimator
                 android:layout_width="36dp"
                 android:layout_height="32dp"
                 android:id="@+id/crypto_status"
@@ -173,7 +173,7 @@
                     android:tint="?attr/openpgp_red"
                     />
 
-            </com.fsck.k9m.view.ToolableViewAnimator>
+            </com.fsck.k9m_m.view.ToolableViewAnimator>
 
         </FrameLayout>
 
@@ -205,7 +205,7 @@
             android:text="@string/recipient_to"
             style="@style/ComposeTextLabel" />
 
-        <com.fsck.k9m.view.RecipientSelectView
+        <com.fsck.k9m_m.view.RecipientSelectView
             android:id="@+id/to"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
@@ -282,7 +282,7 @@
             android:text="@string/recipient_cc"
             style="@style/ComposeTextLabel" />
 
-        <com.fsck.k9m.view.RecipientSelectView
+        <com.fsck.k9m_m.view.RecipientSelectView
             android:id="@+id/cc"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
@@ -328,7 +328,7 @@
             android:text="@string/recipient_bcc"
             style="@style/ComposeTextLabel" />
 
-        <com.fsck.k9m.view.RecipientSelectView
+        <com.fsck.k9m_m.view.RecipientSelectView
             android:id="@+id/bcc"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"

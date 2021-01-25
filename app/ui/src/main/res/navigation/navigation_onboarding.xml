@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeScreen"
-        android:name="com.fsck.k9m.ui.onboarding.WelcomeFragment"
+        android:name="com.fsck.k9m_m.ui.onboarding.WelcomeFragment"
         android:label="@string/welcome_message_title"
         tools:layout="@layout/fragment_welcome_message">
 
@@ -27,19 +27,19 @@
 
     <fragment
         android:id="@+id/settingsImportScreen"
-        android:name="com.fsck.k9m.ui.settings.import.SettingsImportFragment"
+        android:name="com.fsck.k9m_m.ui.settings.import.SettingsImportFragment"
         android:label="@string/settings_import_title"
         tools:layout="@layout/fragment_settings_import"/>
 
     <activity
         android:id="@+id/addAccountScreen"
-        android:name="com.fsck.k9m.activity.setup.AccountSetupBasics"
+        android:name="com.fsck.k9m_m.activity.setup.AccountSetupBasics"
         android:label="@string/account_setup_basics_title"
         tools:layout="@layout/account_setup_basics"/>
 
     <activity
         android:id="@+id/messageListScreen"
-        android:name="com.fsck.k9m.activity.MessageList"
+        android:name="com.fsck.k9m_m.activity.MessageList"
         tools:layout="@layout/message_list"/>
 
 </navigation>

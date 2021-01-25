@@ -45,14 +45,14 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.fsck.k9m"
-        testApplicationId "com.fsck.k9m.tests"
+        applicationId "com.fsck.k9m_m"
+        testApplicationId "com.fsck.k9m_m.tests"
 
         versionCode 27000
         versionName '5.700-SNAPSHOT'
 
         minSdkVersion buildConfig.minSdk
-        targetSdkVersion 28
+        targetSdkVersion 29
 
         generatedDensities = ['mdpi', 'hdpi', 'xhdpi']
 

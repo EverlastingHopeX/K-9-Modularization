@@ -18,8 +18,8 @@
 -dontwarn com.squareup.moshi.**
 
 # Project specific rules
--dontnote k9m.ui.messageview.**
--dontnote k9m.view.**
+-dontnote k9m_m.ui.messageview.**
+-dontnote k9m_m.view.**
 
 -keep public class org.openintents.openpgp.**
 

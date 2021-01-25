@@ -1,15 +1,15 @@
 apply plugin: 'com.android.dynamic-feature'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
 
     aaptOptions {
         additionalParameters '--allow-reserved-package-id','--package-id','0x7e'
     }
 
     defaultConfig {
-        minSdkVersion 28
-        targetSdkVersion 28
+        minSdkVersion 29
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 

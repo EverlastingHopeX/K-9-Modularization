@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.fsck.k9m.ui.messageview.MessageTopView
+<com.fsck.k9m_m.ui.messageview.MessageTopView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
@@ -10,7 +10,7 @@
     android:layout_weight="1"
     android:background="?attr/messageViewBackgroundColor">
 
-    <com.fsck.k9m.view.NonLockingScrollView
+    <com.fsck.k9m_m.view.NonLockingScrollView
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
@@ -37,7 +37,7 @@
                 android:visibility="gone"
                 tools:visibility="visible"/>
 
-            <com.fsck.k9m.view.ToolableViewAnimator
+            <com.fsck.k9m_m.view.ToolableViewAnimator
                 android:id="@+id/message_layout_animator"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -83,11 +83,11 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content" />
 
-            </com.fsck.k9m.view.ToolableViewAnimator>
+            </com.fsck.k9m_m.view.ToolableViewAnimator>
 
         </LinearLayout>
 
-    </com.fsck.k9m.view.NonLockingScrollView>
+    </com.fsck.k9m_m.view.NonLockingScrollView>
 
     <Button android:id="@+id/download_remainder"
         android:text="@string/message_view_download_remainder"
@@ -95,4 +95,4 @@
         android:visibility="gone"
         android:layout_width="fill_parent"/>
 
-</com.fsck.k9m.ui.messageview.MessageTopView>
+</com.fsck.k9m_m.ui.messageview.MessageTopView>
